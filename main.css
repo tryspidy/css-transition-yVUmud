@@ -1,0 +1,27 @@
+<style>
+div {
+  background-color: blue;
+  padding: 40px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+/*transition: property duration timing-function delay|initial|inherit;*/
+
+.hidden {
+  visibility: visible;
+  opacity: 0.1;
+  max-width: 12%;
+}
+
+.hidden:hover {
+  visibility: visible;
+  opacity: 1;
+	max-width: 100%;
+}
+</style>
+
+<div class="hidden">HOVER ME!</div>
